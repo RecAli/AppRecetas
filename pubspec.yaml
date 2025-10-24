@@ -1,0 +1,44 @@
+name: recipe_app
+description: "Una aplicación moderna de recetas con Flutter."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI y Diseño
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+  # Gestión de estado
+  provider: ^6.1.5+1
+
+  # Networking
+  http: ^1.1.0
+
+  # Persistencia local
+  shared_preferences: ^2.2.0
+
+  # Abrir URLs
+  url_launcher: ^6.1.10
+
+  # Utilidades
+  intl: ^0.18.0
+
+  # Traducción
+  translator: ^1.0.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
